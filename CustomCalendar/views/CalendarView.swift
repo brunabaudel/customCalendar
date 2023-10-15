@@ -21,8 +21,8 @@ struct CalendarView: View {
                     MonthHeaderView(vm: vm, showModal: $showModal)
                     
                     LazyVGrid(columns: gridLayout, spacing: 20) {
-                        ForEach(WeekDays.allCases, id: \.self) { weekday in
-                            Text(weekday.rawValue)
+                        ForEach(WeekDays.getAllCases, id: \.self) { weekday in
+                            Text(weekday)
                                 .foregroundColor(vm.color)
                         }
                         

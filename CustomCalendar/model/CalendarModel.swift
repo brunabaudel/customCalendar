@@ -11,11 +11,27 @@ enum Months: String, CaseIterable {
     case jan = "Jan", feb = "Feb", mar = "Mar", apr = "Apr",
          may = "May", jun = "Jun", jul = "Jul", aug = "Aug",
          sep = "Sep", out = "Out", nov = "Nov", dez = "Dez"
+    
+    static var getAllCases: [String] {
+        return allCases.map{$0.localizedString()}
+    }
+    
+    private func localizedString() -> String {
+        return NSLocalizedString(self.rawValue, comment: "Month \(self.rawValue)")
+    }
 }
 
 enum WeekDays: String, CaseIterable {
     case sun = "Sun", mon = "Mon", tue = "Tue", wen = "Wen",
          thu = "Thu", fri = "Fri", sat = "Sat"
+    
+    static var getAllCases: [String] {
+        return allCases.map{$0.localizedString()}
+    }
+    
+    private func localizedString() -> String {
+        return NSLocalizedString(self.rawValue, comment: "Week day \(self.rawValue)")
+    }
 }
 
 struct CalendarModel {

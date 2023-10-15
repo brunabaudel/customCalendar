@@ -34,7 +34,7 @@ struct MonthHeaderView: View {
                     .frame(width: 150, height: 50)
                     .overlay(
                         HStack {
-                            Text("\(String(Months.allCases[vm.calendar.month - 1].rawValue)) \(String(vm.calendar.year))")
+                            Text("\(String(Months.getAllCases[vm.calendar.month - 1])) \(String(vm.calendar.year))")
                                 .font(.title2)
                                 .foregroundColor(.white)
                             Image(systemName: "chevron.down")

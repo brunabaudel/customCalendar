@@ -6,24 +6,24 @@
   
 */
 
-"jan" = "Jan";
-"feb" = "Feb";
-"mar" = "Mar";
-"apr" = "Apr";
-"may" = "May";
-"jun" = "Jun";
-"jul" = "Jul";
-"aug" = "Aug";
-"sep" = "Sep";
-"out" = "Out";
-"nov" = "Nov";
-"dez" = "Dez";
+"Jan" = "Jan";
+"Feb" = "Feb";
+"Mar" = "Mar";
+"Apr" = "Apr";
+"May" = "May";
+"Jun" = "Jun";
+"Jul" = "Jul";
+"Aug" = "Aug";
+"Sep" = "Sep";
+"Out" = "Out";
+"Nov" = "Nov";
+"Dez" = "Dez";
 
 
-"sun" = "Sun";
-"mon" = "Mon";
-"tue" = "Tue";
-"wen" = "Wen";
-"thu" = "Thu";
-"fri" = "Fri";
-"sat" = "Sat";
+"Sun" = "Sun";
+"Mon" = "Mon";
+"Tue" = "Tue";
+"Wen" = "Wen";
+"Thu" = "Thu";
+"Fri" = "Fri";
+"Sat" = "Sat";

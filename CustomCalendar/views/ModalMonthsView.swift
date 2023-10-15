@@ -20,7 +20,7 @@ struct ModalMonthsView: View {
             YearHeaderView(vm: vm, showModalYear: $showModalYear)
             
             LazyVGrid(columns: gridLayout, spacing: 10) {
-                ForEach(Array(Months.allCases.enumerated()), id: \.element) { month, element in
+                ForEach(Array(Months.getAllCases.enumerated()), id: \.element) { month, element in
                     Button {
                         vm.chooseMonth(month: month)
                         withAnimation(.easeIn(duration: 0.3)) {
@@ -31,7 +31,7 @@ struct ModalMonthsView: View {
                             .fill(vm.checkMonthYear(with: month) ? vm.color.opacity(0.6) : vm.color)
                             .frame(height: 50)
                             .overlay(
-                                Text(element.rawValue)
+                                Text(element)
                                     .font(.title3)
                                     .foregroundColor(.white)
                             )
