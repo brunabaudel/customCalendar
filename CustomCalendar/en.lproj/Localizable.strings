@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  CustomCalendar
+
+  Created by Bruna Baudel on 15/10/23.
+  
+*/
+
+"jan" = "Jan";
+"feb" = "Feb";
+"mar" = "Mar";
+"apr" = "Apr";
+"may" = "May";
+"jun" = "Jun";
+"jul" = "Jul";
+"aug" = "Aug";
+"sep" = "Sep";
+"out" = "Out";
+"nov" = "Nov";
+"dez" = "Dez";
+
+
+"sun" = "Sun";
+"mon" = "Mon";
+"tue" = "Tue";
+"wen" = "Wen";
+"thu" = "Thu";
+"fri" = "Fri";
+"sat" = "Sat";
