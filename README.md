@@ -5,7 +5,7 @@
 
 iOS Custom Calendar built with SwiftUI.
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="https://github.com/brunabaudel/customCalendar/blob/main/screenshoots/customCalendar.png" width=30% height=30%>
 
 <!-- LICENSE -->
 ## License
