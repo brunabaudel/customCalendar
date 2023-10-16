@@ -116,8 +116,8 @@
 		F81B5CEB2ADA902800D67592 /* CustomCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				F81B5D322ADBD83500D67592 /* Localizable.strings */,
 				F81B5D2D2ADAFD0100D67592 /* Info.plist */,
+				F81B5D322ADBD83500D67592 /* Localizable.strings */,
 				F81B5D192ADA906E00D67592 /* model */,
 				F81B5D1C2ADA907200D67592 /* views */,
 				F81B5CEC2ADA902800D67592 /* CustomCalendarApp.swift */,
